@@ -15,8 +15,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    Authentication a = Authentication();
-    
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: EntryScreen(), with this settings we don't need to put a home, because we have a generated route everytime we open the app

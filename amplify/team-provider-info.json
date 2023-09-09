@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-icecream-dev-170741-authRole",
+      "UnauthRoleArn": "arn:aws:iam::620620973242:role/amplify-icecream-dev-170741-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::620620973242:role/amplify-icecream-dev-170741-authRole",
+      "Region": "eu-south-1",
+      "DeploymentBucketName": "amplify-icecream-dev-170741-deployment",
+      "UnauthRoleName": "amplify-icecream-dev-170741-unauthRole",
+      "StackName": "amplify-icecream-dev-170741",
+      "StackId": "arn:aws:cloudformation:eu-south-1:620620973242:stack/amplify-icecream-dev-170741/20ebef00-4cc7-11ee-9373-06ae7ff780ca",
+      "AmplifyAppId": "d32zmep2r3fmk8"
+    },
+    "categories": {
+      "auth": {
+        "icecream043fc528": {}
+      },
+      "analytics": {
+        "icecream": {}
+      }
+    }
+  }
+}

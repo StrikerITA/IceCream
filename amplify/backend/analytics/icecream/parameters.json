@@ -1,0 +1,21 @@
+{
+    "appName": "icecream",
+    "roleName": "pinpointLambdaRole667a96ed",
+    "cloudformationPolicyName": "cloudformationPolicy667a96ed",
+    "cloudWatchPolicyName": "cloudWatchPolicy667a96ed",
+    "pinpointPolicyName": "pinpointPolicy667a96ed",
+    "authPolicyName": "pinpoint_amplify_667a96ed",
+    "unauthPolicyName": "pinpoint_amplify_667a96ed",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

@@ -1,7 +1,7 @@
 import 'package:amplify_flutter/amplify_flutter.dart';
 import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
-import 'package:ice_cream/utils/colors.dart';
-import 'package:ice_cream/utils/user.dart';
+import '/utils/colors.dart';
+import '/utils/user.dart';
 
 class Authentication {
   User? currentUser;

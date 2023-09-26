@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ice_cream/screens/entry.dart';
 import 'package:ice_cream/screens/home.dart';
 import 'package:ice_cream/services/auth.dart';
-import 'package:ice_cream/utils/colors.dart';
+import '/utils/colors.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -34,3 +34,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+//TODO: fix error user not exist in signup
